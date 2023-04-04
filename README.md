@@ -5,3 +5,7 @@ Initial model's training losses-accuracies seemed fine but there is something wr
 validation metrics. It jumps to 1.00 accuracy which is abnormal and impossible.
 
 Will try to increase validation size and re-train the model to see if it works properly.
+
+------------------------------------------------------------------------------------------
+Results are pretty reasonable after re-splitting to get more data for validation - test sets
+and adding a dropout to fully connected layer
